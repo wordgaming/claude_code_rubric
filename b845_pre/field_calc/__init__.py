@@ -1,2 +1,8 @@
-from .core import electric_flux, electric_field
-__all__ = ['electric_flux', 'electric_field']
+# Field Calculator Package
+"""
+Multi-charge electric field and potential calculator.
+"""
+
+from .core import ChargeSystem, PointCharge
+
+__all__ = ['ChargeSystem', 'PointCharge']
